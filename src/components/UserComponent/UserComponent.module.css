@@ -1,0 +1,50 @@
+.icons {
+  color: #333;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.icons * {
+  padding: 5px;
+  cursor: pointer;
+}
+.icons, label {
+  padding: 0; /* Adjust as needed */
+  margin: 0; /* Adjust as needed */
+}
+
+
+
+.editable {
+  border: 1px solid #4CAF50;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  width: 90%;
+}
+
+.editable:focus {
+  border-color: #3f51b5;
+  box-shadow: 0 0 5px rgba(63, 81, 181, 0.5);
+}
+
+.readOnly {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #f3f3f3;
+  width: 90%;
+}
+
+.selected {
+  background:#9147ff;
+}
+
+.selected input {
+  background: #fff;
+}
+
+label {
+  display: inline-block;
+  width: 100%;
+}

@@ -1,0 +1,55 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.page {
+    color: white;
+    background-color: #2593fb;
+    border-radius: 50%;
+    margin: 10px;
+    cursor: pointer;
+    height: 25px;
+    width: 25px;
+    line-height: 25px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.page:hover {
+    background-color: #1a6fb3;
+}
+
+.selected {
+    background-color: #fff;
+    color: black;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+}
+
+.delete {
+    margin-right: auto;
+    margin-left: 10vw;
+    background: #b053fc;
+    color: white;
+    border-radius: 5px; /* Adjusted for a more boxy look */
+    padding: 6px;padding: 10px;margin-top: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Added for a more attractive look */
+}
+
+.delete:hover {
+    background: #c12d51;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3); /* Added for a more attractive hover effect */
+}
+.paginationContainer {
+    display: grid;
+    grid-template-rows: 1fr;
+    transition: all 0.3s ease-in-out;
+}
+
+.disabled {
+    background: gray;
+    cursor: not-allowed;
+    opacity: 0.5;
+}

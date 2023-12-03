@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 0.9em;
+}
+
+.search {
+  width: 80vw;
+  padding: 1vh 0 1vh 1vw;
+  margin-bottom: 1vh;
+}
+
+.search-input {
+  width: 60%;
+  padding: 10px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 4px;
+  background-color: lightblue;
+  font-size: 16px;
+  transition: width 0.4s ease-in-out;
+}
+
+.search-input:focus {
+  width: 80%;
+  outline: none;
+  background-color: skyblue;
+}
